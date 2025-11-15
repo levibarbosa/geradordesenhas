@@ -1,18 +1,71 @@
-🔐 Gerador de Senhas em Python (Tkinter)
+# 🔐 Gerador de Senhas em Python (Tkinter)
 
-Este projeto é um gerador de senhas aleatórias, desenvolvido em Python, pensado para ser simples, seguro e fácil de usar.
-Ele oferece uma interface gráfica feita com Tkinter, onde o usuário pode escolher:
+Um gerador de senhas simples, seguro e fácil de usar.  
+Ele permite escolher os tipos de caracteres, definir o tamanho da senha e gerar combinações fortes em poucos cliques.  
+A interface foi criada com **Tkinter**, mantendo tudo leve e direto ao ponto.
 
-✔ Letras minúsculas
+---
 
-✔ Letras maiúsculas
+## ✨ Funcionalidades
 
-✔ Números
+- Seleção de letras minúsculas, maiúsculas, números e símbolos  
+- Definição do tamanho da senha  
+- Geração segura usando o módulo `secrets`  
+- Interface gráfica minimalista  
+- Botão para copiar a senha para a área de transferência
 
-✔ Símbolos
+---
 
-✔ Tamanho da senha desejada
+## 🧠 Para quem é esse projeto?
 
-O programa utiliza o módulo secrets, que é próprio para geração de dados aleatórios seguros — perfeito para criar senhas fortes e evitar previsibilidade.
+Ideal para quem está:
 
-A interface foi criada para ser intuitiva e minimalista, permitindo que qualquer pessoa gere uma senha em apenas alguns cliques.
+- Estudando Python e quer um projeto prático  
+- Aprendendo a criar interfaces gráficas  
+- Construindo utilitários simples e úteis  
+- Interessado em geração de senhas fortes  
+- Buscando exemplos de código limpo e organizado  
+
+---
+
+## 🛠 Tecnologias utilizadas
+
+- **Python 3**  
+- **Tkinter** (interface gráfica)  
+- **secrets** (geração segura)  
+- **string** (conjuntos de caracteres)
+
+---
+
+## 🚀 Como executar
+
+1. Certifique-se de ter **Python 3** instalado.  
+2. Clone o repositório:
+
+   ```bash
+   git clone https://github.com/seu-usuario/seu-repositorio.git
+
+3. Execute o arquivo:
+
+   ```bash
+   python interface.py
+
+---
+
+## 📚 O que você aprende com esse projeto
+
+- Boas práticas no uso do módulo `secrets`
+- Manipulação de strings e listas de caracteres
+- Criação de janelas, botões e checkboxes no Tkinter
+- Organização modular e funções bem definidas
+
+---
+
+## 📁 Estrutura do repositório
+
+```
+/
+│  gerador.py      # Versão sem interface (CLI)
+│  interface.py    # Versão com Tkinter
+│  README.md       # Este arquivo
+```
